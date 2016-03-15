@@ -117,6 +117,6 @@ def main(argv):
 		print "Pictures searched for EXIF GPS metadata: " + str(c)
 		print "Pictures with EXIF GPS metadata found: " + str(cc)
 		print 'Processing took', time.time()-start, 'seconds.'
-
+		print "Done"
 if __name__ == "__main__":
    main(sys.argv[1:])
